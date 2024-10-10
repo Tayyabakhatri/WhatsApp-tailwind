@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class=" border flex justify-center">
+    <div class=" bg-black text-white px-3 w-96 rounded-lg">
+        <!-- navbar start -->
+        <div class="flex justify-between">
+            <!-- time -->
+            <div id="time" class=" text-[#FFFFFF]"></div>
+            <!-- icons -->
+            <div id="icons" class="space-x-0 ">
+                <i class="fa-solid fa-signal fa-sm"></i>
+                <i class="fa-solid fa-wifi fa-sm"></i>
+                <i class="fa-solid fa-battery-full fa-sm"></i>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- chat  -->
+        <div class="flex justify-between pt-5">
+            <div class="text-lg">Chats</div>
+            <div class="flex gap-2 pr-2">
+                <img src="../images/add-24px (1) 1.png" alt="">
+                <img src="../images/new conversation.png" alt="">
+            </div>
+        </div>
+        <!-- chat end -->
+        <!-- input -->
+        <!-- <div class="relative"> -->
+        <!-- Icon -->
+
+        <!-- Input Field -->
+        <!-- <input type="text" placeholder="Search..."
+                class="pl-10 pr-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div> -->
+        <div class="pt-2 relative">
+            <i class="fa fa-search absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400"></i>
+            <input type="text" placeholder=" search...."
+                class="w-full  rounded-md h-7 focus:ring-slate-400 focus:outline-none focus:ring-1">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
